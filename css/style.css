@@ -48,3 +48,7 @@ button {
 #resposta {
   margin-top: 20px;
 }
+a {
+  color: #ff0707;
+  text-decoration: none;
+}

@@ -3,7 +3,7 @@ const form = document.querySelector("#form-serie");
 
 const resposta = document.querySelector("#resposta");
 
-const apiKey = "cv_ezT6F85MgBCUU5HhUYCFsMtu_vROD-Skr0PMCazvs7tZHJomkXPrwMSida5n3pjr";
+const apiKey = "cv__NX-ubAbteh2Hk7jh4eRNzaqq3TWwF17ZeKOv3QJzsB-hswOVqURXqPlKKpQhx32";
 
 const apiUrl = "https://api-ds.codeverse.dev.br/api/series";
 
@@ -14,7 +14,7 @@ event.preventDefault();
   const dados =  new FormData(form);
 
 
-  const heroi = {
+  const serie = {
       title: dados.get("title"),
       genero: dados.get("genero"),
       numero_temporadas: dados.get("numero_temporadas"),
